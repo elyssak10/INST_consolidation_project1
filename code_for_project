@@ -1,1 +1,6 @@
+import random 
+
+print("Welcome to Elyssa's Guessing Game!")
+name = input("Please input your name to begin.") 
+print("Your game starts now. Good luck,", name, "!")
 
