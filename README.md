@@ -11,9 +11,10 @@ This code only runs for one player
 
 The user will be prompted to guess a letter that might be in that word
 if incorrect: it will let them know and prompt them to try again
-if correct: it will congratulate them
-
-After three incorrect guesses the code will not allow the user to guess again.. instead it will inform them of what the correct word was 
+if correct: it will tell the user how many times the letter appears in the word
+* but will not tell them WHERE
+If the user guesses the correct final word, the code will congratulate them
+Otherwise after three incorrect guesses the code will not allow the user to guess again.. instead it will inform them of what the correct word was 
 
    
 * right now the code does not keep track of the letters guessed
