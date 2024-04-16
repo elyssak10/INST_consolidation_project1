@@ -22,4 +22,31 @@ elif word_to_be_guessed in countries_category:
     print("You category is countries")
 
 guesses = 3
-print("Please beging by guessing a letter. Choose carefully as you only have", guesses, "guesses." )
+user_letter = input("Please begin by guessing a letter. Choose carefully as you only have", guesses, "guesses." )
+
+word_to_be_guessed = word_to_be_guessed.strip()
+word_to_be_guessed = word_to_be_guessed.split()
+user_counter = 0
+word_counter = 0
+flag = True
+
+word_counter = word_to_be_guessed.count(user_letter)
+if word_counter == 0:
+    flag = True
+else:
+    flag == False
+
+while flag == True and user_counter <= 3:
+    user_letter = input("The letter did not appear. Please try again: ")
+    user_counter += 1
+    word_counter = word_to_be_guessed.count(user_letter)
+    if word_counter == 0:
+        flag = True
+    elif user_counter > 3:
+        print(f"You ran out of guesses. The correct word was", words_chosen,".")
+        print("end program here using end")
+    
+    else:
+        flag = False
+
+print(user_letter, "was found in the word!", word_counter)
