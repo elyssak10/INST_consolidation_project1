@@ -16,3 +16,5 @@ if correct: it will congratulate them
 After three incorrect guesses the code will not allow the user to guess again.. instead it will inform them of what the correct word was 
 
    
+* right now the code does not keep track of the letters guessed
+* right now the code does not have a point system
