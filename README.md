@@ -12,16 +12,14 @@ The program will choose one word randomly from these categories.
    1. If the letter is not found in the word, it will increase the score count by 1, inform the user of that and ask the user to try again.
    2. If the letter is found in the word, it will still increase the score by 1 and will inform the user how many times the letter was found in the word. It will NOT tell them WHERE the letter is!
 
-Now that they have guessed the letter once they can begin guessing the final word 
-The code will now ask them if they want to guess
+-Now that they have guessed the letter once they can begin guessing the final word 
+-The code will now ask them if they want to guess
    1. if they say no it will retun to prompting them to guess another letter
    2. otherwise it will prompt them to guess the final word
    - if they guess correctly it will: congratulate them, repeat the word, and give them their final score
-If the final word was incorrect it will inform them and 
-Otherwise after three incorrect letter guesses the code will not allow the user to guess again.. instead it will inform them of what the correct word was 
-
-   
-* right now the code does not keep track of the letters guessed
-* right now the code does not have a point system
-
-The game does NOT “remember” and avoid any words it used before with a player
+-If the final word was incorrect it will inform them and will take note and let the user know of the 1st failed attempt
+The user will then be able to go back and continue to guess letters and will be asked each round if they would like to guess the word
+-If after 3 incorrect guesses for the word the code will break and will inform the user that the game is over. It will tell them what the correct word was but will not give them a final score, as they have failed.
+-The game does not keep track of the letters guessed
+-The game does not remember how many times a person played or failed or keep track of their final winning scores
+-The game does NOT “remember” and avoid any words it used before with a player
