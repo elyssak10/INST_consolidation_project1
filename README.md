@@ -33,6 +33,8 @@ The program will choose one word randomly from these categories.
 
 -The user will then be able to go back and continue to guess letters and will be asked each round if they would like to guess the word
 
+-The program tracks how many letter guesses and how many word guesses each player makes.
+
 -If after 3 incorrect guesses for the word the code will break and will inform the user that the game is over. It will tell them what the correct word was but will not give them a final score, as they have failed.
 
 -The game does not keep track of the letters guessed
