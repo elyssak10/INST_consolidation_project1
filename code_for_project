@@ -21,32 +21,22 @@ elif word_to_be_guessed in school_category:
 elif word_to_be_guessed in countries_category:
     print("You category is countries")
 
-guesses = 3
-user_letter = input("Please begin by guessing a letter. Choose carefully as you only have", guesses, "guesses." )
+letter_guess_turns = 0 
+word_guess_turns = 0
 
-word_to_be_guessed = word_to_be_guessed.strip()
-word_to_be_guessed = word_to_be_guessed.split()
-user_counter = 0
-word_counter = 0
-flag = True
 
-word_counter = word_to_be_guessed.count(user_letter)
-if word_counter == 0:
-    flag = True
-else:
-    flag == False
+while word_guess_turns < 3:
+    user_letter = input("Please guess a letter.\n Remember you only have three chances to guesses the final word." )
+    if word_to_be_guessed.count(user_letter) == 0:    
+    # this is when they guess a letter wrong
 
-while flag == True and user_counter <= 3:
-    user_letter = input("The letter did not appear. Please try again: ")
-    user_counter += 1
-    word_counter = word_to_be_guessed.count(user_letter)
-    if word_counter == 0:
-        flag = True
-    elif user_counter > 3:
-        print(f"You ran out of guesses. The correct word was", words_chosen,".")
-        print("end program here using end")
-    
+        letter_guess_turns += 1
+        print(f"Incorrect guess. Letter turn counter is now {letter_guess_turns}, Please guess again.")
     else:
-        flag = False
+        letter_guess_turns += 1
+        print(f"{user_letter} was found in your word {word_to_be_guessed.count(user_letter)} times")
 
-print(user_letter, "was found in the word!", word_counter)
+    guess_word_option = input("Would you like to guess the word? (y/n)")
+
+  
+
