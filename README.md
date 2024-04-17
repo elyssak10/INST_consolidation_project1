@@ -1,14 +1,21 @@
 # INST_consolidation_project1
 run code in ?
+
 •	The object of the game is to guess a secret word from a bank of words split into three categories: school, countries, fruit
 The program will choose one word randomly from these categories.
 
+
 -The game will welcome the user with a message personalized to their name, after user inputs name of choice
+
 -As a hint, it will automatically tell the user what category the random word is from
    However, the user is not able to see the list of random words in each category and will not be able to see the random word
+   
 -As an additional hint, it will tell the user how many letters are in that word
+
 -It will remind the user how many incorrect letter guesses/lives they have- 3
+
 -The user must first guess a letter (CANNOT immediately guess the word)
+
    1. If the letter is not found in the word, it will increase the score count by 1, inform the user of that and ask the user to try again.
    2. If the letter is found in the word, it will still increase the score by 1 and will inform the user how many times the letter was found in the word. It will NOT tell them WHERE the letter is!
 
