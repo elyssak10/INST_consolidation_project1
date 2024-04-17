@@ -1,8 +1,7 @@
 # INST_consolidation_project1
-This code only runs for one player
-run code in anaconda prompt?
+run code in ?
 •	The object of the game is to guess a secret word from a bank of words split into three categories: school, countries, fruit
-The program will choose one word randomly from these categories 
+The program will choose one word randomly from these categories.
 
 1. The game will welcome the user with a message personalized to their name, after user inputs name of choice
 2. As a hint, it will automatically tell the user what category the random word is from
