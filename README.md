@@ -12,6 +12,10 @@ However, the user is not able to see the list of random words in each category a
    If the letter is not found in the word, it will increase the score count by 1, inform the user of that and ask the user to try again.
 If the letter is found in the word, it will still increase the score by 1 and will inform the user how many times the letter was found in the word. It will NOT tell them WHERE the letter is!
 
+Now that they have guessed the letter once they can begin guessing the final word 
+The code will now ask them if they want to guess
+-if they say no it will retun to prompting them to guess another letter
+-otherwise it will prompt them to guess the final word
 
 If the user guesses the correct final word, the code will congratulate them
 Otherwise after three incorrect letter guesses the code will not allow the user to guess again.. instead it will inform them of what the correct word was 
