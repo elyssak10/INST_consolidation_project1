@@ -9,12 +9,10 @@ However, the user is not able to see the list of random words in each category a
 3. As an additional hint, it will tell the user how many letters are in that word
 4. It will remind the user how many incorrect letter guesses/lives they have- 3
 5. The user must first guess a letter (CANNOT immediately guess the word)
-   If the letter is not found in the word it will ask the user to try again.
+   If the letter is not found in the word, it will increase the score count by 1, inform the user of that and ask the user to try again.
+If the letter is found in the word, it will still increase the score by 1 and will inform the user how many times the letter was found in the word. It will NOT tell them WHERE the letter is!
 
-The user will be prompted to guess a letter that might be in that word
-if incorrect: it will let them know and prompt them to try again
-if correct: it will tell the user how many times the letter appears in the word
-* but will not tell them WHERE
+
 If the user guesses the correct final word, the code will congratulate them
 Otherwise after three incorrect letter guesses the code will not allow the user to guess again.. instead it will inform them of what the correct word was 
 
