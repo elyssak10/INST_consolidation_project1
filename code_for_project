@@ -23,8 +23,6 @@ elif word_to_be_guessed in countries_category:
 
 letter_guess_turns = 0 
 word_guess_turns = 0
-
-
 while word_guess_turns < 3:
     user_letter = input("Please guess a letter.\n Remember you only have three chances to guesses the final word." )
     if word_to_be_guessed.count(user_letter) == 0:    
@@ -37,6 +35,7 @@ while word_guess_turns < 3:
         print(f"{user_letter} was found in your word {word_to_be_guessed.count(user_letter)} times")
 
     guess_word_option = input("Would you like to guess the word? (y/n)")
+
     if guess_word_option == 'y':
         word_guessed = input("Take a guess, please: ")
         if word_guessed == word_to_be_guessed:
@@ -48,6 +47,9 @@ while word_guess_turns < 3:
             print(f"This is not the correct word, number of word guesses {word_guess_turns}")
 
 print(f"Game over! The correct word was {word_to_be_guessed}")
+
+
+
 
 
   
