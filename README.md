@@ -7,7 +7,9 @@ The program will choose one word randomly from these categories.
 2. As a hint, it will automatically tell the user what category the random word is from
 However, the user is not able to see the list of random words in each category and will not be able to see the random word
 3. As an additional hint, it will tell the user how many letters are in that word
-4. It will let the user know how many incorrect letter guesses/lives they have- 3 
+4. It will remind the user how many incorrect letter guesses/lives they have- 3
+5. The user must first guess a letter (CANNOT immediately guess the word)
+   If the letter is not found in the word it will ask the user to try again.
 
 The user will be prompted to guess a letter that might be in that word
 if incorrect: it will let them know and prompt them to try again
