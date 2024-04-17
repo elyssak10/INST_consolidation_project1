@@ -20,3 +20,5 @@ Otherwise after three incorrect letter guesses the code will not allow the user 
    
 * right now the code does not keep track of the letters guessed
 * right now the code does not have a point system
+
+The game does NOT “remember” and avoid any words it used before with a player
