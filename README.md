@@ -2,7 +2,11 @@
 run code in ?
 
 •	The object of the game is to guess a secret word from a bank of words split into three categories: school, countries, fruit
-The program will choose one word randomly from these categories.
+The program will choose one word randomly from these categories. The user will have three tries to guess the final word, and the count score will go up by one everytime they either 
+a) guess the word incorrectly
+b) guess a letter incorrectly 
+c) guess a letter that is in the word
+Therefore, the lower the score the better!
 
 
 -The game will welcome the user with a message personalized to their name, after user inputs name of choice
