@@ -37,6 +37,18 @@ while word_guess_turns < 3:
         print(f"{user_letter} was found in your word {word_to_be_guessed.count(user_letter)} times")
 
     guess_word_option = input("Would you like to guess the word? (y/n)")
+    if guess_word_option == 'y':
+        word_guessed = input("Take a guess, please: ")
+        if word_guessed == word_to_be_guessed:
+            print("Congratulations! You have guessed the word. The word was", word_to_be_guessed)
+            print(f"Your final score is {letter_guess_turns}")
+            break
+        else:
+            word_guess_turns += 1
+            print(f"This is not the correct word, number of word guesses {word_guess_turns}")
+
+print(f"Game over! The correct word was {word_to_be_guessed}")
+
 
   
 
