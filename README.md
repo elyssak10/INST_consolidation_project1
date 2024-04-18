@@ -1,6 +1,5 @@
 # INST_consolidation_project1
-run code in ?
-
+Run this script at the command line 
 •	The object of the game is to guess a secret word from a bank of words split into three categories: school, countries, fruit
 The program will choose one word randomly from these categories. The user will have three tries to guess the final word, and the count score will go up by one everytime they either 
 
