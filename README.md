@@ -50,3 +50,6 @@ Therefore, the lower the score the better!
 -The game does not remember how many times a person played or failed or keep track of their final winning scores
 
 -The game does NOT “remember” and avoid any words it used before with a player
+
+especially valuable contribution credit for Judah (TA)
+mention which license it has 
