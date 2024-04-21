@@ -6,7 +6,7 @@ print("Your game starts now. Good luck,", name, "!")
 
 while repeat == true:
     fruit_category = ("cherry", "apples", "strawberry", "peach", "grapes", "banana", "melon", "pear", "watermelon", "lemon", "tomato", "kiwi")
-    school_category = ("door", "computer""folder", "chair", "windows", "teacher", "student", "desk", "cafeteria", "lunch", "pencil")
+    school_category = ("door", "computer","folder", "chair", "windows", "teacher", "student", "desk", "cafeteria", "lunch", "pencil")
     countries_category = ("Italy", "Germany", "France", "Spain", "Sweden", "China", "Thailand", "Brazil", "Chile", "Candada", "Bulgaria")
 
 words_chosen = fruit_category + school_category + countries_category
