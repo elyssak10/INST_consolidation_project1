@@ -49,7 +49,10 @@ Therefore, the lower the score the better!
 
 -The game does not keep track of the letters guessed
 
--The game does not remember how many times a person played or failed or keep track of their final winning scores
+-The game automatically goes 5 rounds
+
+-From each round it takes note of how many letters the player guessed and after the 5 rounds crewates a bar chart with the results
+* However, it does not differentiate between if the guesses were losses or wins, so if you get 3 letter guesses that could be either from getting it in three or getting "game over"
 
 -The game does NOT “remember” and avoid any words it used before with a player
 
