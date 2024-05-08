@@ -56,6 +56,6 @@ Therefore, the lower the score the better!
 
 -The game does NOT “remember” and avoid any words it used before with a player
 
-Especially valuable contribution credit for Judah (TA)
+Especially valuable contribution credit for Judah and Josue
 
 
